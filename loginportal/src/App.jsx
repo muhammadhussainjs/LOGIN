@@ -8,13 +8,12 @@ import google from './assets/google.png'
 const App = () => {
   return (
     <>
-    <div className=' flex w-[100%] items-center justify-center '>
+    <div className=' flex w-[100%] items-center justify-center flex-row '>
       
 
     <div style={{
       backgroundImage: `url(${bgimage})`,
-      minHeight: '100vh',
-      minWidth:'50vh',      
+      minHeight: '100vh',      
       backgroundSize: 'contain', 
       backgroundPosition: 'center',
       backgroundPosition: 'left center' ,
@@ -23,14 +22,14 @@ const App = () => {
       
       
       
-    }} className=' bg-black  hidden sm:block sm:w-[20%] md:w-[40%]   lg:w-[70%]'>
+    }} className=' bg-black  hidden sm:block sm:w-[40%] md:w-[50%]   lg:w-[70%]'>
   
 
 </div>
       
 
 
-      <div className='sm:w-[80%] md:w-[60%] w-full'>
+      <div className='sm:w-[60%] md:w-[50%] w-full'>
         
           <img src={logo} alt=""  className='mt-24 ml-8'/>
           <p className='text-2xl font-semibold mt-6 ml-8'>Nice to see you again</p>
